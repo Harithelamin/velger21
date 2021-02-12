@@ -4,27 +4,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <title>Hjemm</title>
 </head>
 <body>
+<!--navbar-->
+<header class="navbar navbar-expand-md navbar-dark bg-dark">
+    <nav class="container-xxl flex-wrap flex-md-nowrap" aria-label="Main navbar">
+        <a class="navbar-brand" href="index.html" >Velger.no</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Om velgerguiden</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">FAQ</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+<div class="login">
+    <a href="login.html" > <button class="btn btn-primary" >logg inn </button> </a>
+    <hr class="d-md-none text-white-50">
+</div>
 
-        <nav class="navbar navbar-dark bg-dark">
-            <div class="container-fluid">
-                <a href="index.html" class="navbar-brand">Velger.no</a>
-                <a href="#" class="navbar-brand">Om Velgerguiden</a>
-                <a href="#" class="navbar-brand">Faq</a>
-                <a href="login.html" > <button class="btn btn-primary" >login </button> </a>
-            </div>
-        </nav>
-
-        <div>
-        <p>Velkommen til Velgerguide 2021</p>
+      <!innhold plaseres her -->
+        <div class="container-sm">
+            <h2>Velkommen til velgergiden2021</h2>
+            <p>her kommer det innhold</p>
         </div>
 
 
 
-    <footer> <p>velger.no</p></footer>
+
+        <!-- fotter -->
+        <div class="card text-center">
+            <div class="card-header">
+                Velger.no
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Velger.no</h5>
+                <p class="card-text"> Poletikk</p>
+            </div>
+            <div class="card-footer text-muted">
+
+            </div>
+        </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 </body>
 </html>
