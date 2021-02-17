@@ -1,0 +1,69 @@
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+}
+
+a:hover {
+    color: #ffffff;
+}
+
+ul{
+    list-style-type: none ;
+}
+
+.navbar {
+    background: #000000;
+    padding: 1rem 2rem;
+    min-height: 7vh;
+}
+
+.navbar .navbar-brand a{
+    padding: 1rem 0;
+    display: block;
+    text-decoration: none;
+}
+
+.navbar-brand {
+    font-size: 2.5rem;
+    color: white;
+}
+
+.nav-link {
+    color: white;
+}
+
+.navbar-toggler {
+    background: black;
+    border: none;
+    padding: 10px 6px;
+    outline: none;
+}
+
+.navbar-toggler span {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border: 1px;
+    background: #ffffff;
+}
+.navbar-toggler span {
+    margin-top: 6px;
+    width: 22px;
+    margin-left: 6px;
+}
+a button{
+    position: relative;
+    float: right;
+    margin-right: 2rem;
+    margin-top: 1rem;
+}
+
+.container-sm {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.card-body {
+    background: #000000;
+    color: white;
+}
