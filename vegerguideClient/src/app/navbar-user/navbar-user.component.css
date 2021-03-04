@@ -3,5 +3,8 @@
   color: white;
 }
 .navbar-brand{
-  padding-left: 2rem;
+  margin-left: 2rem;
+}
+.navbar-toggler{
+  margin-right: 1rem;
 }
