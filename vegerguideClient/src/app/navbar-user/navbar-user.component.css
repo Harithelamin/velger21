@@ -1,6 +1,9 @@
 .navbar {
-  background: #000000;
-  color: white;
+  overflow: hidden;
+  background-color: #000000;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 .navbar-brand{
   margin-left: 2rem;
