@@ -6,6 +6,9 @@ import { SigninAdminComponent } from './signin-admin/signin-admin.component';
 
 @NgModule({
   declarations: [SigninAdminComponent],
+  exports: [
+    SigninAdminComponent
+  ],
   imports: [
     CommonModule
   ]
