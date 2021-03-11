@@ -1,0 +1,196 @@
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-info static-top">
+  <div class="container">
+    <div>
+      <a style="color: white;"><a *ngIf="isLoggedIn">Hello {{ username }}</a></a>
+      <a style="color: white;"><a *ngIf="isLoggedIn">{{roles}}</a></a>
+      <a href class="nav-link" *ngIf="isLoggedIn" style="color: brown;" (click)="logout()">LogOut</a> 
+    </div>
+    <a class="navbar-brand" href="">
+          <img src="assets/img/partilogoer.jpg" alt="" width="400" height="80">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">        
+        <li class="nav-item active">
+          <a class="nav-link" (click)="onSubmitShowLogin()">Hjemme
+                <span class="sr-only">(current)</span>
+         </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link"  (click)="onSubmitShowAbout()">Om Velger21</a>      
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" (click)="onSubmitShowUserProfileRegisterForm()">Kom i gang</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" >Ta Testen</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" (click)="onSubmitShowStatic()">Partier Statisk</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" >Ha Kontakt</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+
+<!-- login  -->
+<div id="login" class="login-form"  *ngIf="showLogin">  
+  <form *ngIf="!isLoggedIn"name="formLogin"(ngSubmit)="f.form.valid && onSubmitLogin()" #f="ngForm" novalidate>
+    <h2>Login form</h2>
+    <div class="form-group">
+      <label for="username">Username</label>
+      <input type="text"  class="form-control" name="username" [(ngModel)]="formLogin.username" required #username="ngModel"/>
+      <div class="alert alert-danger"role="alert" *ngIf="f.submitted && username.invalid"> Username is required! </div>
+    </div>
+
+    <div class="form-group">
+      <label for="password">Password</label>
+      <input type="password" class="form-control"name="password" [(ngModel)]="formLogin.password" required minlength="4"#password="ngModel"/>
+      <div class="alert alert-danger" role="alert"  *ngIf="f.submitted && password.invalid" >
+      <div *ngIf="password.errors.required">Password is required</div>
+      <div *ngIf="password.errors.minlength">Password must be 4 characters</div>
+    </div>
+    </div>
+    <div class="form-group">
+      <button class="btn btn-primary btn-block">Login</button>
+    </div>                           
+  </form>
+</div>
+
+<!-- Register UserProfile  -->
+<div *ngIf="showUserProfileRegisterForm" class="container">
+  <form *ngIf="!isSuccessful"name="formRegisterUser" (ngSubmit)="f.form.valid && onSubmitRegisterUser()" #f="ngForm" novalidate>
+    <h2> User Registration</h2>
+    <div class="form-group">
+      <label for="username">* Full Name</label>
+      <input type="text" class="form-control"name="username" [(ngModel)]="formRegisterUser.username" [pattern]="namePattern" required minlength="10" maxlength="20" #username="ngModel" />
+      <div class="alert-danger" *ngIf="f.submitted && username.invalid">
+        <div *ngIf="username.errors.required">Full Name is required</div>
+        <div *ngIf="username.errors.minlength">Full Name must be at least 10 characters</div>
+        <div *ngIf="username.errors.maxlength">Full Name must be at most 20 characters</div>
+        <div *ngIf="username.errors">User Profile's name not valid</div>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label for="mobileNo">* Mobile Number (must be 8 numbers)</label>
+      <input type="tel" class="form-control"name="mobileNo" [(ngModel)]="formRegisterUser.mobileNo" [pattern]="mobNumberPattern"  required  minlength="8" maxlength="8" #mobileNo="ngModel" />
+      <div class="alert-danger" *ngIf="f.submitted && mobileNo.invalid">
+        <div *ngIf="mobileNo.errors.required">mobileNumber is required</div>
+        <div *ngIf="mobileNo.errors.minlength">mobileNumber must be 10 numbers</div>
+        <div *ngIf="mobileNo.errors.maxlength">mobileNumber must be 10 numbers</div>
+        <div *ngIf="mobileNo.errors">Mobile number not valid</div>
+      </div>
+    </div>
+
+   <div class="form-group">
+     <label for="email">* Email</label>
+     <input type="email"class="form-control" name="email" [(ngModel)]="formRegisterUser.email" required email #email="ngModel"/>
+     <div class="alert-danger" *ngIf="f.submitted && email.invalid">
+       <div *ngIf="email.errors.required">Email is required</div>
+       <div *ngIf="email.errors.email">Email must be a valid email address</div>
+     </div>
+   </div>
+
+   <div class="form-group">
+     <label for="password">* Password</label>
+     <input type="password" class="form-control" name="password"[(ngModel)]="formRegisterUser.password" required minlength="4"  maxlength="4" #password="ngModel"/>
+     <div class="alert-danger" *ngIf="f.submitted && password.invalid">
+       <div *ngIf="password.errors.required">Password is required</div>
+       <div *ngIf="password.errors.minlength">Password must be 4 characters</div>
+       <div *ngIf="password.errors.minlength">Password must be 4 characters</div>
+     </div>
+   </div> 
+   
+   <div class="form-group">
+    <label for="confirmPassword">* ConfirmPassword</label>
+    <input type="password" class="form-control" name="confirmPassword"[(ngModel)]="formRegisterUser.confirmPassword" required minlength="4"  maxlength="4" required
+    appEqualValidator='password' #confirmPassword="ngModel"/>
+    <div class="alert-danger" *ngIf="f.submitted && confirmPassword.invalid">
+      <div *ngIf="confirmPassword.errors.required">ConfirmPassword is required</div>
+      <div *ngIf="confirmPassword.errors.maxlength">ConfirmPassword must be 4 characters</div>
+      <div *ngIf="confirmPassword.errors.minlength">ConfirmPassword must be 4 characters</div>
+      <div *ngIf="confirmPassword.errors?.validateEqual">Password Mismatch</div>
+    </div>
+   </div> 
+
+   <div class="form-group">
+     <button class="btn btn-primary btn-block">Register Profile</button>
+   </div>
+
+   <div class="alert alert-warning" *ngIf="f.submitted && isSignUpFailed">
+    *  fields are required!<br />{{ errorMessage }}
+   </div>     
+
+  </form>
+</div>
+
+<!-- Static  -->
+<div id="static" class=""  *ngIf="showStatic"> 
+  <a class="navbar-brand" href="">
+    <img src="assets/img/statisk.jpg" alt="" width="600" height="400">
+</a>  
+</div>
+
+
+
+
+
+
+<!-- About -->
+<div class="container"*ngIf="showAbout">
+  <h2>Om Valger 21</h2>    
+  <p>Hvordan jeg tenker at Velgerguiden 2021 bør fungere?</p>
+  <p>1. Brukeren skal kunne gjennomføre hele velgerguiden anonymt hvis de ønsker det.</p>
+  <p>2. Vi bør be om noen opplysninger for statistikk: Kjønn, alder, valgkrets (de gamle fylkene) og hva de stemte på ved siste stortingsvalg. Hopp over mulig.</p>
+  <p>3. Vi kan be om at brukerne registrer seg i forbindelse med lagring. «Lagre en profil – du kan endre og fortsette senere.» Frivillig brukernavn eller epost. Godta samme brukernavn hvis passord er forskjellig. Etter punkt 5 eller ved avslutning.</p>
+  <p>4. På første side kan brukeren velge hvilke partier de vil ha med i testen. Hvis brukeren senere vil ha med flere partier bør vi lage en mulighet for dette.</p>
+  <p>5. På neste side, eller samme som over, bør brukeren kunne velge hvilke temaer de ønsker å ta med i testen, og markere temaer som er ekstra viktige for dem. Disse temaene gir dobble poeng i beregningen senere.</p>
+  <p>6. Guiden starter på det første temaet brukeren har bestemt seg for å ta med.</p>
+  <p>7. Hvert tema starter med spørsmål 1 og link til en informasjonsside og.</p>
+  <p>8. Spørsmål 1 Tema 1 viser problemstillingen og de aktuelle alternativene.
+    (a) Noen spørsmål vil ha 2 alternativer, andre vil ha flere, opp til antall partier
+    (b) Til hvert alternativ hører de partiene som står bak alternativet. Hvert alternativ kan altså gi poeng til flere partier.
+    (c) Ikke enig gir Helt uenig -3, litt uenig 0, litt enig 2, helt enig 5.
+    (d) Det bør være mulig å hente ut oversikt over ikke enig og helt enig, da det å ikke være enig med et parti i en viktig sak noen ganger kan ekskludere partiet.
+    </p>
+    <p>9. Etter spørsmål 1 går guiden til spørsmål 2 til det ikke er flere spørsmål i temaet.</p>
+    <p>10. Hvis brukeren har valgt å ta med få partier i utvalget, kan det hende at alle valgte partier er enige i et spørsmål. Her bør brukeren kunne velge “hopp over spørsmål der alle/begge partier er enige”.</p>
+    <p>11. Når temaet er avsluttet vises en resultatside med resultat for de ulike partiene.</p>
+    <p>12. Etter tema 1 vises tema 2 med første spørsmål. </p>
+    <p>13. Prosessen fortsetter til alle temaer brukeren har valgt er gjennomført.</p>
+    <p>14. Følgende valg kan være tilgjengelige etter hvert tema eller eventuelt hele tiden: «Vis samlet resultat» og «lagre og fortsett senere». Brukeren må lage en profil for å lagre.</p>
+    <p>15. Brukerens valg må lagres slik at brukeren kan fortsette testen i en ny sesjon.</p>
+    <p>16. Brukeren bør ha mulighet til å legge til eller trekke fra tema.</p>
+    <p>17. Brukeren skal ha mulighet til å ta bort partier ift. sammenligning. Hvis legge til partier - ny test. </p>
+    <p>18. I visning av samlet resultat bør det også være mulig å se resultat per tema.</p>
+    <p>19. Brukeren bør også få mulighet til å ta et tema på nytt og overskrive gamle data.</p>
+    <p>20. Ta med informasjon om brukersikkerhet.</p>
+  </div>
+
+
+
+
+
+
+  <footer class="navbar navbar-expand-lg navbar-dark bg-info static-top" style="position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem">
+
+    <!-- Copyright -->
+    <div class="" >
+      velger21©2021 Copyright:
+      <a class="text-white" href="https://velger.no/">Velgerguiden</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
