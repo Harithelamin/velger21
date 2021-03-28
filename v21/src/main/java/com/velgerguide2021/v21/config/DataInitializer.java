@@ -29,7 +29,8 @@ public class DataInitializer implements CommandLineRunner {
             //To Insert an admin for one time
             this.users.save(User.builder()
                     .username("admin")
-                    .password(this.passwordEncoder.encode("123456"))
+                    .password(this.passwordEncoder.encode("" +
+                            ""))
                     .roles(Arrays.asList("ADMIN"))
                     .email("admin@velger.no")
                     .mobileNo("96692299")

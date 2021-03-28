@@ -1,60 +1,62 @@
 
 <!-- Navigation -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-info static-top">
-  <div class="container">
-    <div>
-      <a style="color: white;"><a *ngIf="isLoggedIn">Hello {{ username }}</a></a>
-      <a style="color: white;"><a *ngIf="isLoggedIn">{{roles}}</a></a>
-      <a href class="nav-link" *ngIf="isLoggedIn" style="color: brown;" (click)="logout()">LogOut</a> 
-    </div>
-    <a class="navbar-brand" href="">
-          <img src="assets/img/partilogoer.jpg" alt="" width="400" height="80">
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+<nav class="navbar navbar-expand-lg navbar-dark  static-top" style="background-color: #000000;">
+  <a class="navbar-brand" >Velger 21
+  </a>
+  <div style="float: right">
+    <a style="color: white;"><a *ngIf="isLoggedIn">Hello {{ username }}</a></a>
+    <a style="color: white;"><a *ngIf="isLoggedIn">{{roles}}</a></a>
+    <a href class="nav-link" *ngIf="isLoggedIn" style="color: brown;" (click)="logout()">LogOut</a>
+  </div>
+  <button  class="navbar-toggler" type="button" (click)="isCollapsed = !isCollapsed" [attr.aria-expanded]="!isCollapsed" aria-controls="navbarResponsive"> <!--(click)="toggleNavbar()" data-toggle="collapse" data-target="#navbarResponsive"
+          aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">-->
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarResponsive" [ngbCollapse]="isCollapsed">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item" style="margin: 0.5rem">
+        <button type="button" class="btn btn-dark" (click)="onSubmitShowLogin()" (click)="isCollapsed = !isCollapsed" [attr.aria-expanded]="!isCollapsed" aria-controls="navbarResponsive">Hjemme
         </button>
-    <div class="collapse navbar-collapse" id="navbarResponsive">
-      <ul class="navbar-nav ml-auto">        
-        <li class="nav-item active">
-          <a class="nav-link" (click)="onSubmitShowLogin()">Hjemme
-                <span class="sr-only">(current)</span>
-         </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link"  (click)="onSubmitShowAbout()">Om Velger21</a>      
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" (click)="onSubmitShowUserProfileRegisterForm()">Kom i gang</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" >Ta Testen</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" (click)="onSubmitShowStatic()">Partier Statisk</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" >Ha Kontakt</a>
-        </li>
-      </ul>
-    </div>
+      </li>
+      <li class="nav-item" style="margin: 0.5rem">
+        <button type="button" class="btn btn-dark"  (click)="onSubmitShowAbout()" (click)="isCollapsed = !isCollapsed" [attr.aria-expanded]="!isCollapsed" aria-controls="navbarResponsive">Om Velger21</button>
+      </li>
+      <li class="nav-item" style="margin: 0.5rem" >
+        <button type="button" class="btn btn-dark" (click)="onSubmitShowUserProfileRegisterForm()" (click)="isCollapsed = !isCollapsed" [attr.aria-expanded]="!isCollapsed" aria-controls="navbarResponsive">Kom i gang</button>
+      </li>
+      <li class="nav-item" style="margin: 0.5rem">
+        <button type="button" class="btn btn-dark" (click)="isCollapsed = !isCollapsed" [attr.aria-expanded]="!isCollapsed" aria-controls="navbarResponsive">Ta Testen</button>
+      </li>
+      <li class="nav-item" style="margin: 0.5rem">
+        <button type="button" class="btn btn-dark" (click)="onSubmitShowStatic()" (click)="isCollapsed = !isCollapsed" [attr.aria-expanded]="!isCollapsed" aria-controls="navbarResponsive">Partier Statestikk</button>
+      </li>
+      <li class="nav-item" style="margin: 0.5rem">
+        <button type="button" class="btn btn-dark" (click)="isCollapsed = !isCollapsed" [attr.aria-expanded]="!isCollapsed" aria-controls="navbarResponsive">Ta Kontakt</button>
+      </li>
+      <li class="nav-item" style="margin: 0.5rem">
+        <button type="button" class="btn btn-dark" (click)="isCollapsed = !isCollapsed" [attr.aria-expanded]="!isCollapsed" aria-controls="navbarResponsive">FAQ</button>
+      </li>
+    </ul>
   </div>
 </nav>
 
 
 
 <!-- login  -->
-<div id="login" class="login-form"  *ngIf="showLogin">  
+<div id="login" class="login-form"  *ngIf="showLogin" style="align-content:center; margin-left: 5rem; margin-right: 5rem ">
   <form *ngIf="!isLoggedIn"name="formLogin"(ngSubmit)="f.form.valid && onSubmitLogin()" #f="ngForm" novalidate>
     <h2>Login form</h2>
     <div class="form-group">
       <label for="username">Username</label>
-      <input type="text"  class="form-control" name="username" [(ngModel)]="formLogin.username" required #username="ngModel"/>
+      <input type="text"  class="form-control" name="username" [(ngModel)]="formLogin.username"
+             required #username="ngModel"/>
       <div class="alert alert-danger"role="alert" *ngIf="f.submitted && username.invalid"> Username is required! </div>
     </div>
 
     <div class="form-group">
       <label for="password">Password</label>
-      <input type="password" class="form-control"name="password" [(ngModel)]="formLogin.password" required minlength="4"#password="ngModel"/>
+      <input type="password" class="form-control"name="password" [(ngModel)]="formLogin.password"
+             required minlength="4"#password="ngModel"/>
       <div class="alert alert-danger" role="alert"  *ngIf="f.submitted && password.invalid" >
       <div *ngIf="password.errors.required">Password is required</div>
       <div *ngIf="password.errors.minlength">Password must be 4 characters</div>
@@ -62,7 +64,7 @@
     </div>
     <div class="form-group">
       <button class="btn btn-primary btn-block">Login</button>
-    </div>                           
+    </div>
   </form>
 </div>
 
@@ -109,8 +111,8 @@
        <div *ngIf="password.errors.minlength">Password must be 4 characters</div>
        <div *ngIf="password.errors.minlength">Password must be 4 characters</div>
      </div>
-   </div> 
-   
+   </div>
+
    <div class="form-group">
     <label for="confirmPassword">* ConfirmPassword</label>
     <input type="password" class="form-control" name="confirmPassword"[(ngModel)]="formRegisterUser.confirmPassword" required minlength="4"  maxlength="4" required
@@ -121,7 +123,7 @@
       <div *ngIf="confirmPassword.errors.minlength">ConfirmPassword must be 4 characters</div>
       <div *ngIf="confirmPassword.errors?.validateEqual">Password Mismatch</div>
     </div>
-   </div> 
+   </div>
 
    <div class="form-group">
      <button class="btn btn-primary btn-block">Register Profile</button>
@@ -129,26 +131,23 @@
 
    <div class="alert alert-warning" *ngIf="f.submitted && isSignUpFailed">
     *  fields are required!<br />{{ errorMessage }}
-   </div>     
+   </div>
 
   </form>
 </div>
 
 <!-- Static  -->
-<div id="static" class=""  *ngIf="showStatic"> 
+<div id="static" class=""  *ngIf="showStatic">
   <a class="navbar-brand" href="">
     <img src="assets/img/statisk.jpg" alt="" width="600" height="400">
-</a>  
+</a>
 </div>
-
-
-
 
 
 
 <!-- About -->
 <div class="container"*ngIf="showAbout">
-  <h2>Om Valger 21</h2>    
+  <h2>Om Valger 21</h2>
   <p>Hvordan jeg tenker at Velgerguiden 2021 bør fungere?</p>
   <p>1. Brukeren skal kunne gjennomføre hele velgerguiden anonymt hvis de ønsker det.</p>
   <p>2. Vi bør be om noen opplysninger for statistikk: Kjønn, alder, valgkrets (de gamle fylkene) og hva de stemte på ved siste stortingsvalg. Hopp over mulig.</p>
@@ -177,20 +176,18 @@
     <p>20. Ta med informasjon om brukersikkerhet.</p>
   </div>
 
-
-
-
-
-
-  <footer class="navbar navbar-expand-lg navbar-dark bg-info static-top" style="position: fixed;
+<!--Fotter-->
+  <footer class="card-mainFooter text-center" style="position: fixed;
   bottom: 0;
   width: 100%;
-  height: 2.5rem">
+  height: 2.5rem;
+  background-color: #000000;
+  color: white">
 
     <!-- Copyright -->
     <div class="" >
       velger21©2021 Copyright:
-      <a class="text-white" href="https://velger.no/">Velgerguiden</a>
+      <a class="text-white" href="https://velger.no/">Velger.no</a>
     </div>
     <!-- Copyright -->
   </footer>

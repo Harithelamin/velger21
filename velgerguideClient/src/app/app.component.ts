@@ -3,7 +3,7 @@ import { Subscription, Observable, of } from 'rxjs';
 import { User } from './user';
 import { AuthService } from './_services/auth.service';
 import { HttpEventType, HttpErrorResponse, HttpEvent } from '@angular/common/http';
-import { catchError, map } from 'rxjs/operators'; 
+import { catchError, map } from 'rxjs/operators';
 import { ThrowStmt } from '@angular/compiler';
 import { FormArray } from '@angular/forms';
 import { TokenStorageService } from './_services/token-storage.service';
@@ -38,10 +38,11 @@ export class AppComponent {
   formRegisterUser: any = {};
   isSuccessful = false;
   isSignUpFailed = false;
-  rolesProfiles: []; 
+  rolesProfiles: [];
   namePattern = "[a-zA-Z ]*";
-  mobNumberPattern = "[0-9]*"; 
+  mobNumberPattern = "[0-9]*";
   pwdPattern = "^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).{6,12}$";
+  isCollapsed = true;
 
   showUserProfileRegisterForm : boolean;
   showLogin : boolean;
@@ -55,10 +56,6 @@ export class AppComponent {
     private token: TokenStorageService
   ){}
 
-  
-  
-
-  
   ngOnInit() {
     this.currentUser = this.token.getUser();
 
@@ -66,7 +63,6 @@ export class AppComponent {
       this.isLoggedIn = true;
       this.username=this.tokenStorage.getUser().userName;
       this.roles = this.tokenStorage.getUser().roles;
-      
     }
     if (this.isLoggedIn) {
       const user = this.tokenStorageService.getUser();
@@ -152,7 +148,7 @@ export class AppComponent {
         this.errorMessage = err.error.message;
         this.isSignUpFailed = true;
       }
-    );   
+    );
 }
 onsubmitShowUserList(){
   this.closeAllForms();

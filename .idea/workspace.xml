@@ -1,13 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="878b922f-23c5-422e-a227-b69f8f24edf8" name="Default Changelist" comment="" />
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <ignored path="$PROJECT_DIR$/v21/target/" />
-    <ignored path="$PROJECT_DIR$/cli/target/" />
-    <ignored path="$PROJECT_DIR$/ui/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="878b922f-23c5-422e-a227-b69f8f24edf8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Velgerguide2021.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v21/src/main/java/com/velgerguide2021/v21/config/DataInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/v21/src/main/java/com/velgerguide2021/v21/config/DataInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v21/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/v21/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v21/target/classes/META-INF/v21.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v21/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/v21/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/config/AppConf.class" beforeDir="false" afterPath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/config/AppConf.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/config/DataInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/config/DataInitializer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/config/MessageResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/config/MessageResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/config/ResourceNotFoundException.class" beforeDir="false" afterPath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/config/ResourceNotFoundException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/config/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/config/SecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/controller/AuthenticationRequest$AuthenticationRequestBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/controller/AuthenticationRequest$AuthenticationRequestBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/controller/AuthenticationRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/controller/AuthenticationRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/controller/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/controller/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/controller/RestExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/controller/RestExceptionHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/controller/UserinfoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/controller/UserinfoController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/jwt/CustomUserDetailsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/jwt/CustomUserDetailsService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/jwt/InvalidJwtAuthenticationException.class" beforeDir="false" afterPath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/jwt/InvalidJwtAuthenticationException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/jwt/JwtAuthenticationEntryPoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/jwt/JwtAuthenticationEntryPoint.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/jwt/JwtProperties.class" beforeDir="false" afterPath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/jwt/JwtProperties.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/jwt/JwtSecurityConfigurer.class" beforeDir="false" afterPath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/jwt/JwtSecurityConfigurer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/jwt/JwtTokenAuthenticationFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/jwt/JwtTokenAuthenticationFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/jwt/JwtTokenProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/jwt/JwtTokenProvider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/model/Answer.class" beforeDir="false" afterPath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/model/Answer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/model/Assessment.class" beforeDir="false" afterPath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/model/Assessment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/model/Confirmation.class" beforeDir="false" afterPath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/model/Confirmation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/model/Faq.class" beforeDir="false" afterPath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/model/Faq.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/model/Message.class" beforeDir="false" afterPath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/model/Message.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/model/Parties.class" beforeDir="false" afterPath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/model/Parties.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/model/Point.class" beforeDir="false" afterPath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/model/Point.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/model/Question.class" beforeDir="false" afterPath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/model/Question.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/model/Registration.class" beforeDir="false" afterPath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/model/Registration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/model/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/model/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/model/Topic.class" beforeDir="false" afterPath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/model/Topic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/model/User$UserBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/model/User$UserBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/model/UserAnswer.class" beforeDir="false" afterPath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/model/UserAnswer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/repository/PartieRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/repository/PartieRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/repository/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/repository/UserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/velgerguideClient/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/velgerguideClient/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/velgerguideClient/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/velgerguideClient/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/velgerguideClient/src/app/app.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/velgerguideClient/src/app/app.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/velgerguideClient/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/velgerguideClient/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/velgerguideClient/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/velgerguideClient/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/velgerguideClient/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/velgerguideClient/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/velgerguideClient/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/velgerguideClient/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/velgerguideClient/src/polyfills.ts" beforeDir="false" afterPath="$PROJECT_DIR$/velgerguideClient/src/polyfills.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/velgerguideClient/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/velgerguideClient/src/styles.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,19 +81,6 @@
     <expand />
     <select />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/v21/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="37" lean-forward="true" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -55,6 +96,9 @@
       <find>tests</find>
       <find>auth</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -111,13 +155,6 @@
       </list>
     </option>
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
   <component name="MavenProjectNavigator">
     <treeState>
       <expand>
@@ -142,6 +179,10 @@
     <option name="width" value="1293" />
     <option name="height" value="687" />
   </component>
+  <component name="ProjectId" id="1pcSISG3GlswWMdxGECN5ZUzfuT" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -162,32 +203,42 @@
       <pane id="Scope" />
     </panes>
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1615457597094" />
     <property name="editor.config.ad.shown" value="true" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
     <property name="go.vendoring.notification.had.been.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="13" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../salma" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../testingNettbank" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.tslint" value="C:\Users\Harith\IdeaProjects\Velgerguide2021\cli\node_modules\tslint" />
-    <property name="nodejs.protractor.protractor_package" value="$PROJECT_DIR$/cli/node_modules/protractor" />
+    <property name="nodejs.protractor.protractor_package" value="$PROJECT_DIR$/velgerguideClient/node_modules/protractor" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
     <property name="show.run.dashboard.notification" value="false" />
+    <property name="ts.external.directory.path" value="C:\Users\kimpa\Documents\GitHub\velger21\velgerguideClient\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -209,19 +260,18 @@
       <command value="mvn clean install" />
     </option>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Spring Boot.Application">
+  <component name="RunManager" selected="npm.Angular CLI Server (velgerguideClient)">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="Velgerguide2021" />
       <working_directory value="$PROJECT_DIR$" />
@@ -268,7 +318,19 @@
       <scope-kind value="ALL" />
       <method v="2" />
     </configuration>
+    <configuration name="E2E Tests (velgerguideClient)" type="JavaScriptTestRunnerProtractor">
+      <config-file value="$PROJECT_DIR$/velgerguideClient/e2e/protractor.conf.js" />
+      <node-interpreter value="project" />
+      <protractor-package value="$PROJECT_DIR$/velgerguideClient/node_modules/protractor" />
+      <protractor-options value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method v="2" />
+    </configuration>
     <configuration name="Angular Application (cli)" type="JavascriptDebugType" uri="http://localhost:4200">
+      <method v="2" />
+    </configuration>
+    <configuration name="localhost:4200" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:4200/">
       <method v="2" />
     </configuration>
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -289,21 +351,36 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="Angular CLI Server (velgerguideClient)" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/velgerguideClient/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Go Build.go build cli/" />
+      <item itemvalue="Go Build.go build velgerguideClient/" />
       <item itemvalue="JavaScript Debug.Angular Application (cli)" />
       <item itemvalue="npm.Angular CLI Server (cli)" />
+      <item itemvalue="npm.Angular CLI Server (velgerguideClient)" />
       <item itemvalue="Protractor.E2E Tests (cli)" />
+      <item itemvalue="Protractor.E2E Tests (velgerguideClient)" />
       <item itemvalue="Spring Boot.Application" />
-      <item itemvalue="Go Build.go build velgerguideClient/" />
+      <item itemvalue="JavaScript Debug.localhost:4200" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.localhost:4200" />
         <item itemvalue="Go Build.go build velgerguideClient/" />
         <item itemvalue="Go Build.go build cli/" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -319,6 +396,13 @@
       <workItem from="1614209537394" duration="1279000" />
       <workItem from="1614241742441" duration="6140000" />
       <workItem from="1614955758692" duration="39186000" />
+      <workItem from="1615480808269" duration="18257000" />
+      <workItem from="1615536913883" duration="633000" />
+      <workItem from="1615564387019" duration="2336000" />
+      <workItem from="1615585642322" duration="961000" />
+      <workItem from="1615587614205" duration="5371000" />
+      <workItem from="1615636862504" duration="719000" />
+      <workItem from="1616055892865" duration="31403000" />
     </task>
     <servers />
   </component>
@@ -405,7 +489,19 @@
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/cli/tsconfig.app.json" />
