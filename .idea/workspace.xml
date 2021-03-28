@@ -4,63 +4,9 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="878b922f-23c5-422e-a227-b69f8f24edf8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="878b922f-23c5-422e-a227-b69f8f24edf8" name="Default Changelist" comment="fikset design for navbar og footer">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Velgerguide2021.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/v21/src/main/java/com/velgerguide2021/v21/config/DataInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/v21/src/main/java/com/velgerguide2021/v21/config/DataInitializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/v21/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/v21/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/v21/target/classes/META-INF/v21.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/v21/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/v21/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/Application.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/config/AppConf.class" beforeDir="false" afterPath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/config/AppConf.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/config/DataInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/config/DataInitializer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/config/MessageResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/config/MessageResponse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/config/ResourceNotFoundException.class" beforeDir="false" afterPath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/config/ResourceNotFoundException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/config/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/config/SecurityConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/controller/AuthenticationRequest$AuthenticationRequestBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/controller/AuthenticationRequest$AuthenticationRequestBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/controller/AuthenticationRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/controller/AuthenticationRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/controller/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/controller/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/controller/RestExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/controller/RestExceptionHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/controller/UserinfoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/controller/UserinfoController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/jwt/CustomUserDetailsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/jwt/CustomUserDetailsService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/jwt/InvalidJwtAuthenticationException.class" beforeDir="false" afterPath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/jwt/InvalidJwtAuthenticationException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/jwt/JwtAuthenticationEntryPoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/jwt/JwtAuthenticationEntryPoint.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/jwt/JwtProperties.class" beforeDir="false" afterPath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/jwt/JwtProperties.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/jwt/JwtSecurityConfigurer.class" beforeDir="false" afterPath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/jwt/JwtSecurityConfigurer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/jwt/JwtTokenAuthenticationFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/jwt/JwtTokenAuthenticationFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/jwt/JwtTokenProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/jwt/JwtTokenProvider.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/model/Answer.class" beforeDir="false" afterPath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/model/Answer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/model/Assessment.class" beforeDir="false" afterPath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/model/Assessment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/model/Confirmation.class" beforeDir="false" afterPath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/model/Confirmation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/model/Faq.class" beforeDir="false" afterPath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/model/Faq.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/model/Message.class" beforeDir="false" afterPath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/model/Message.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/model/Parties.class" beforeDir="false" afterPath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/model/Parties.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/model/Point.class" beforeDir="false" afterPath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/model/Point.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/model/Question.class" beforeDir="false" afterPath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/model/Question.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/model/Registration.class" beforeDir="false" afterPath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/model/Registration.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/model/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/model/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/model/Topic.class" beforeDir="false" afterPath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/model/Topic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/model/User$UserBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/model/User$UserBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/model/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/model/UserAnswer.class" beforeDir="false" afterPath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/model/UserAnswer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/repository/PartieRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/repository/PartieRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/repository/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/v21/target/classes/com/velgerguide2021/v21/repository/UserRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/velgerguideClient/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/velgerguideClient/angular.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/velgerguideClient/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/velgerguideClient/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/velgerguideClient/src/app/app.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/velgerguideClient/src/app/app.component.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/velgerguideClient/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/velgerguideClient/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/velgerguideClient/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/velgerguideClient/src/app/app.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/velgerguideClient/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/velgerguideClient/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/velgerguideClient/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/velgerguideClient/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/velgerguideClient/src/polyfills.ts" beforeDir="false" afterPath="$PROJECT_DIR$/velgerguideClient/src/polyfills.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/velgerguideClient/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/velgerguideClient/src/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -261,17 +207,6 @@
     </option>
   </component>
   <component name="RunManager" selected="npm.Angular CLI Server (velgerguideClient)">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="Velgerguide2021" />
       <working_directory value="$PROJECT_DIR$" />
@@ -365,12 +300,12 @@
       <item itemvalue="Go Build.go build cli/" />
       <item itemvalue="Go Build.go build velgerguideClient/" />
       <item itemvalue="JavaScript Debug.Angular Application (cli)" />
+      <item itemvalue="JavaScript Debug.localhost:4200" />
       <item itemvalue="npm.Angular CLI Server (cli)" />
       <item itemvalue="npm.Angular CLI Server (velgerguideClient)" />
       <item itemvalue="Protractor.E2E Tests (cli)" />
       <item itemvalue="Protractor.E2E Tests (velgerguideClient)" />
       <item itemvalue="Spring Boot.Application" />
-      <item itemvalue="JavaScript Debug.localhost:4200" />
     </list>
     <recent_temporary>
       <list>
@@ -402,8 +337,16 @@
       <workItem from="1615585642322" duration="961000" />
       <workItem from="1615587614205" duration="5371000" />
       <workItem from="1615636862504" duration="719000" />
-      <workItem from="1616055892865" duration="31403000" />
+      <workItem from="1616055892865" duration="32166000" />
+      <workItem from="1616951496321" duration="282000" />
     </task>
+    <task id="LOCAL−00001" summary="fikset design for navbar og footer">
+      <created>1616951013125</created>
+      <option name="number" value="LOCAL−00001" />
+      <option name="presentableId" value="LOCAL−00001" />
+      <updated>1616951013125</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -502,6 +445,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fikset design for navbar og footer" />
+    <option name="LAST_COMMIT_MESSAGE" value="fikset design for navbar og footer" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/cli/tsconfig.app.json" />
