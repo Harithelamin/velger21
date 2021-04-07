@@ -25,7 +25,7 @@
         <button type="button" class="btn btn-dark" (click)="onSubmitShowUserProfileRegisterForm()" (click)="isCollapsed = !isCollapsed" [attr.aria-expanded]="!isCollapsed" aria-controls="navbarResponsive">Kom i gang</button>
       </li>
       <li class="nav-item" style="margin: 0.5rem">
-        <button type="button" class="btn btn-dark" (click)="isCollapsed = !isCollapsed" [attr.aria-expanded]="!isCollapsed" aria-controls="navbarResponsive">Ta Testen</button>
+        <button type="button" class="btn btn-dark" (click)="onSubmitShowTest()" (click)="isCollapsed = !isCollapsed" [attr.aria-expanded]="!isCollapsed" aria-controls="navbarResponsive">Ta Testen</button>
       </li>
       <li class="nav-item" style="margin: 0.5rem">
         <button type="button" class="btn btn-dark" (click)="onSubmitShowStatic()" (click)="isCollapsed = !isCollapsed" [attr.aria-expanded]="!isCollapsed" aria-controls="navbarResponsive">Partier Statestikk</button>
@@ -144,7 +144,6 @@
 </div>
 
 
-
 <!-- About -->
 <div class="container"*ngIf="showAbout">
   <h2>Om Valger 21</h2>
@@ -175,6 +174,12 @@
     <p>19. Brukeren bør også få mulighet til å ta et tema på nytt og overskrive gamle data.</p>
     <p>20. Ta med informasjon om brukersikkerhet.</p>
   </div>
+
+<!-- Ta Testen -->
+<div id="Test" class="container"*ngIf="showTest" >
+ <!-- leggin kode for testen her -->
+  <p>Test Vises</p>
+</div>
 
 <!--Fotter-->
   <footer class="card-mainFooter text-center" style="position: fixed;
