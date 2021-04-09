@@ -49,6 +49,7 @@ export class AppComponent {
   showAbout : boolean;
   showStatic: boolean;
   showTest: boolean;
+  showFaq: boolean;
 
   constructor(
     private authService: AuthService,
@@ -81,6 +82,7 @@ export class AppComponent {
     this.showAbout = false;
     this.showStatic = false;
     this.showTest = false;
+    this.showFaq = false;
   }
   onSubmitShowLogin(){
     this.showLogin = true;
@@ -88,6 +90,7 @@ export class AppComponent {
     this.showUserProfileRegisterForm = false;
     this.showStatic = false;
     this.showTest = false;
+    this.showFaq = false;
   }
   onSubmitShowAbout(){
     this.showAbout = true;
@@ -95,6 +98,7 @@ export class AppComponent {
     this.showUserProfileRegisterForm = false;
     this.showStatic = false;
     this.showTest = false;
+    this.showFaq = false;
   }
   onSubmitShowUserProfileRegisterForm(){
     this.showUserProfileRegisterForm = true;
@@ -102,6 +106,7 @@ export class AppComponent {
     this.showAbout = false;
     this.showStatic = false;
     this.showTest = false;
+    this.showFaq = false;
   }
   onSubmitShowStatic(){
     this.showStatic = true;
@@ -109,6 +114,7 @@ export class AppComponent {
     this.showLogin = false;
     this.showUserProfileRegisterForm = false;
     this.showTest = false;
+    this.showFaq = false;
   }
 
   onSubmitShowTest(){
@@ -117,6 +123,17 @@ export class AppComponent {
     this.showAbout = false;
     this.showLogin = false;
     this.showUserProfileRegisterForm = false;
+    this.showFaq = false;
+  }
+
+  onSubmitShowFaq() {
+    this.showFaq = true;
+    this.showTest = false;
+    this.showStatic = false;
+    this.showAbout = false;
+    this.showLogin = false;
+    this.showUserProfileRegisterForm = false;
+
   }
 
   onSubmitLogin() {
