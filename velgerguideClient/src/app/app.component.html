@@ -137,7 +137,7 @@
 </div>
 
 <!-- Static  -->
-<div id="static" class=""  *ngIf="showStatic">
+<div id="static" class="container"  *ngIf="showStatic">
   <a class="navbar-brand" href="">
     <img src="assets/img/statisk.jpg" alt="" width="600" height="400">
 </a>
@@ -190,7 +190,113 @@
 <!--FAQ-->
 <div id="Faq" class="container"*ngIf="showFaq">
   <!--FAQ content her-->
-  <h1>FAQ kommer her</h1>
+
+  <div class="container">
+    <h1>FAQ</h1>
+
+    <div >
+      <h4>Denne delen inneholder et vell av informasjon, relatert til <strong>Velger guiden</strong> Hvis du ikke finner svar på spørsmålet ditt, må du kontakte oss.</h4>
+    </div>
+
+    <br />
+
+    <h3>Generelle spørsmål</h3>
+
+    <div class="accordion" id="accordionExample">
+      <div class="card">
+        <div class="card-header" id="headingOne">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+              Er det nødvendig å registrere seg her for å bruke appen ?
+            </button>
+          </h5>
+        </div>
+
+        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+          <div class="card-body">
+            Kontoregistrering hos <strong>Velger guiden</strong> er bare nødvendig hvis du skal lagre testene du har gjørt til neste gang.
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingTwo">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Kan jeg sende inn mine egne resultater eller temaer?
+            </button>
+          </h5>
+        </div>
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+          <div class="card-body">
+            Mye av innholdet på nettstedet er sendt inn av samfunnet. oppfordres du til å bidra, Alle studiepoeng blir publisert sammen med ressursene.
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingThree">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Hvordan kan jeg bruke Velger guiden?
+            </button>
+          </h5>
+        </div>
+        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+          <div class="card-body">
+            Ved å åpne Velger guiden du kan tryke enten direkt på ta testen eller etter å loge deg inn, deretter velger du temaer og svarer du på alle spårsmålen for å få riktig svar, merk til at det kan finnes noen svarer som ikke er helt det du mener men prøv å velg den som er nærmere til din mening.
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <br />
+
+    <h3>eeeeeeeeeee</h3>
+    <div class="accordion" id="accordionExample1">
+      <div class="card">
+        <div class="card-header" id="headingFour">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+              Collapsible Group Item #4
+            </button>
+          </h5>
+        </div>
+
+        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample1">
+          <div class="card-body">
+            aaaa
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingFive">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+              Collapsible Group Item #5
+            </button>
+          </h5>
+        </div>
+        <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample1">
+          <div class="card-body">
+            sss
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingSix">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+              Collapsible Group Item #6
+            </button>
+          </h5>
+        </div>
+        <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample1">
+          <div class="card-body">
+            aaa
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 
 <!--Fotter-->
