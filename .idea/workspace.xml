@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="878b922f-23c5-422e-a227-b69f8f24edf8" name="Default Changelist" comment="opprettet div for selve Ta kontakt hvor kode for contact skal inn, samt lagti in nødvendig kode i app.component.ts for å vise element nåt Ta kontakt trykkes i nav bar.">
+    <list default="true" id="878b922f-23c5-422e-a227-b69f8f24edf8" name="Default Changelist" comment="Start side med en knapp for å starte testen opprettet">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/velgerguideClient/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/velgerguideClient/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/velgerguideClient/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/velgerguideClient/src/app/app.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -373,7 +372,13 @@
       <option name="presentableId" value="LOCAL−00005" />
       <updated>1617967910062</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL−00006" summary="Start side med en knapp for å starte testen opprettet">
+      <created>1618423824362</created>
+      <option name="number" value="LOCAL−00006" />
+      <option name="presentableId" value="LOCAL−00006" />
+      <updated>1618423824362</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -479,7 +484,8 @@
     <MESSAGE value="opprettet div for selve parti testen hvor kode for test skal legges till. samt nødvendig kode i app.component.ts for å vise element nåt Ta testen trykkes i nav bar." />
     <MESSAGE value="opprettet div for selve FAQ hvor kode for faq skal inn, samt lagti in nødvendig kode i app.component.ts for å vise element nåt Ta testen trykkes i nav bar." />
     <MESSAGE value="opprettet div for selve Ta kontakt hvor kode for contact skal inn, samt lagti in nødvendig kode i app.component.ts for å vise element nåt Ta kontakt trykkes i nav bar." />
-    <option name="LAST_COMMIT_MESSAGE" value="opprettet div for selve Ta kontakt hvor kode for contact skal inn, samt lagti in nødvendig kode i app.component.ts for å vise element nåt Ta kontakt trykkes i nav bar." />
+    <MESSAGE value="Start side med en knapp for å starte testen opprettet" />
+    <option name="LAST_COMMIT_MESSAGE" value="Start side med en knapp for å starte testen opprettet" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/cli/tsconfig.app.json" />
