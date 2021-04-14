@@ -122,5 +122,8 @@
       }
     }
   },
-  "defaultProject": "velgerguideClient"
+  "defaultProject": "velgerguideClient",
+  "cli": {
+    "analytics": "c0a8df9f-909e-4cc4-a4e4-b8344c04509b"
+  }
 }

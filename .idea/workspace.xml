@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="878b922f-23c5-422e-a227-b69f8f24edf8" name="Default Changelist" comment="opprettet div for selve Ta kontakt hvor kode for contact skal inn, samt lagti in nødvendig kode i app.component.ts for å vise element nåt Ta kontakt trykkes i nav bar.">
+    <list default="true" id="878b922f-23c5-422e-a227-b69f8f24edf8" name="Default Changelist" comment="opprettet div for selve FAQ hvor kode for faq skal inn, samt lagti in nødvendig kode i app.component.ts for å vise element nåt Ta testen trykkes i nav bar.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/velgerguideClient/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/velgerguideClient/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/velgerguideClient/src/app/app.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/velgerguideClient/src/app/app.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/velgerguideClient/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/velgerguideClient/angular.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/velgerguideClient/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/velgerguideClient/src/app/app.component.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -175,7 +174,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../testingNettbank" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.tslint" value="C:\Users\Harith\IdeaProjects\Velgerguide2021\cli\node_modules\tslint" />
+    <property name="node.js.selected.package.tslint" value="C:/Users/Harith/IdeaProjects/Velgerguide2021/cli/node_modules/tslint" />
     <property name="nodejs.protractor.protractor_package" value="$PROJECT_DIR$/velgerguideClient/node_modules/protractor" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -186,7 +185,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
     <property name="show.run.dashboard.notification" value="false" />
-    <property name="ts.external.directory.path" value="C:\Users\kimpa\Documents\GitHub\velger21\velgerguideClient\node_modules\typescript\lib" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/velgerguideClient/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -209,6 +208,17 @@
     </option>
   </component>
   <component name="RunManager" selected="npm.Angular CLI Server (velgerguideClient)">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="Velgerguide2021" />
       <working_directory value="$PROJECT_DIR$" />
@@ -342,7 +352,8 @@
       <workItem from="1616055892865" duration="32166000" />
       <workItem from="1616951496321" duration="1059000" />
       <workItem from="1617731955356" duration="3679000" />
-      <workItem from="1617795833118" duration="14316000" />
+      <workItem from="1617795833118" duration="9732000" />
+      <workItem from="1617982633884" duration="7272000" />
     </task>
     <task id="LOCAL−00001" summary="fikset design for navbar og footer">
       <created>1616951013125</created>
@@ -368,13 +379,7 @@
       <option name="presentableId" value="LOCAL−00004" />
       <updated>1617966673126</updated>
     </task>
-    <task id="LOCAL−00005" summary="opprettet div for selve Ta kontakt hvor kode for contact skal inn, samt lagti in nødvendig kode i app.component.ts for å vise element nåt Ta kontakt trykkes i nav bar.">
-      <created>1617967910062</created>
-      <option name="number" value="LOCAL−00005" />
-      <option name="presentableId" value="LOCAL−00005" />
-      <updated>1617967910062</updated>
-    </task>
-    <option name="localTasksCounter" value="6" />
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -479,8 +484,7 @@
     <MESSAGE value="små fiks på navbar" />
     <MESSAGE value="opprettet div for selve parti testen hvor kode for test skal legges till. samt nødvendig kode i app.component.ts for å vise element nåt Ta testen trykkes i nav bar." />
     <MESSAGE value="opprettet div for selve FAQ hvor kode for faq skal inn, samt lagti in nødvendig kode i app.component.ts for å vise element nåt Ta testen trykkes i nav bar." />
-    <MESSAGE value="opprettet div for selve Ta kontakt hvor kode for contact skal inn, samt lagti in nødvendig kode i app.component.ts for å vise element nåt Ta kontakt trykkes i nav bar." />
-    <option name="LAST_COMMIT_MESSAGE" value="opprettet div for selve Ta kontakt hvor kode for contact skal inn, samt lagti in nødvendig kode i app.component.ts for å vise element nåt Ta kontakt trykkes i nav bar." />
+    <option name="LAST_COMMIT_MESSAGE" value="opprettet div for selve FAQ hvor kode for faq skal inn, samt lagti in nødvendig kode i app.component.ts for å vise element nåt Ta testen trykkes i nav bar." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/cli/tsconfig.app.json" />
