@@ -12,21 +12,13 @@ import { TokenStorageService } from './_services/token-storage.service';
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
-  template: `
-  <nav class="navbar">
-    <!-- logo -->
-    <div class="navbar-brand">
-      <a class="navbar-item">
-        <img src="assets/img/partilogoer.jpg">
-      </a>
-    </div>
-  </nav>
-`,
-styles: []
+  styles: []
 })
 export class AppComponent {
   title = 'vegerguideClient';
-  //autherity
+  /**
+   * autherity
+   */
   isLoggedIn = false;
   username: string;
   roles: [];
@@ -39,14 +31,14 @@ export class AppComponent {
   isSuccessful = false;
   isSignUpFailed = false;
   rolesProfiles: [];
-  namePattern = "[a-zA-Z ]*";
-  mobNumberPattern = "[0-9]*";
-  pwdPattern = "^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).{6,12}$";
+  namePattern = '[a-zA-Z ]*';
+  mobNumberPattern = '[0-9]*';
+  pwdPattern = '^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).{6,12}$';
   isCollapsed = true;
 
-  showUserProfileRegisterForm : boolean;
-  showLogin : boolean;
-  showAbout : boolean;
+  showUserProfileRegisterForm: boolean;
+  showLogin: boolean;
+  showAbout: boolean;
   showStatic: boolean;
   showTest: boolean;
   showFaq: boolean;
@@ -65,15 +57,15 @@ export class AppComponent {
 
     if (this.tokenStorage.getToken()) {
       this.isLoggedIn = true;
-      this.username=this.tokenStorage.getUser().userName;
+      this.username = this.tokenStorage.getUser().userName;
       this.roles = this.tokenStorage.getUser().roles;
     }
     if (this.isLoggedIn) {
       const user = this.tokenStorageService.getUser();
       this.roles = user.roles;
       this.username = user.username;
-      console.log(this.username)
-      console.log(this.roles)
+      console.log(this.username);
+      console.log(this.roles);
 
     }
     this.closeAllForms();
@@ -86,7 +78,7 @@ export class AppComponent {
     this.showTest = false;
     this.showFaq = false;
     this.showContact = false;
-    this.firstpage=true;
+    this.firstpage = true;
   }
   onSubmitShowLogin(){
     this.showLogin = true;
@@ -96,7 +88,7 @@ export class AppComponent {
     this.showTest = false;
     this.showFaq = false;
     this.showContact = false;
-    this.firstpage=false
+    this.firstpage = false;
   }
   onSubmitShowAbout(){
     this.showAbout = true;
@@ -106,7 +98,7 @@ export class AppComponent {
     this.showTest = false;
     this.showFaq = false;
     this.showContact = false;
-    this.firstpage=false
+    this.firstpage = false;
   }
   onSubmitShowUserProfileRegisterForm(){
     this.showUserProfileRegisterForm = true;
@@ -116,7 +108,7 @@ export class AppComponent {
     this.showTest = false;
     this.showFaq = false;
     this.showContact = false;
-    this.firstpage=false
+    this.firstpage = false;
   }
   onSubmitShowStatic(){
     this.showStatic = true;
@@ -126,7 +118,7 @@ export class AppComponent {
     this.showTest = false;
     this.showFaq = false;
     this.showContact = false;
-    this.firstpage=false
+    this.firstpage = false;
   }
 
   onSubmitShowTest(){
@@ -137,18 +129,18 @@ export class AppComponent {
     this.showUserProfileRegisterForm = false;
     this.showFaq = false;
     this.showContact = false;
-    this.firstpage=false
+    this.firstpage = false;
   }
 
   onSubmitShowContact() {
-    this.showContact =true;
+    this.showContact = true;
     this.showTest = false;
     this.showStatic = false;
     this.showAbout = false;
     this.showLogin = false;
     this.showUserProfileRegisterForm = false;
     this.showFaq = false;
-    this.firstpage=false
+    this.firstpage = false;
   }
 
   onSubmitShowFaq() {
@@ -159,7 +151,7 @@ export class AppComponent {
     this.showLogin = false;
     this.showUserProfileRegisterForm = false;
     this.showContact = false;
-    this.firstpage=false
+    this.firstpage = false;
   }
 
   onSubmitLogin() {
@@ -191,9 +183,9 @@ export class AppComponent {
 
   onSubmitRegisterUserProfile(){}
   upateUser(user: User){
-    this.newUser=false;
-    this.formRegisterUser=user;
-    this.showUserRegisterForm= true;
+    this.newUser = false;
+    this.formRegisterUser = user;
+    this.showUserRegisterForm = true;
   }
   onSubmitRegisterUser() {
     this.authService.register(this.formRegisterUser).subscribe(
@@ -210,9 +202,9 @@ export class AppComponent {
 }
 onsubmitShowUserList(){
   this.closeAllForms();
-  this.showPatientPage=false;
-  this.authService.getAllUsers().subscribe((result)=>{
-  this.users = result;})
+  this.showPatientPage = false;
+  this.authService.getAllUsers().subscribe((result) => {
+  this.users = result; } );
   this.showUsersList = true;
 }
 
@@ -223,13 +215,13 @@ onsubmitShowUserRegisterForm(){
 
 
 loadRolesProfiles(){
-    this.authService.getRoles().subscribe(_data => {
-      //this.rolesProfiles = data;
+    this.authService.getRoles().subscribe( data => {
+      /**
+       * //this.rolesProfiles = data;
+       */
     });
   }
 }
-template: `
-  <img src="assets/img/logo.png">
-`
+
 
 

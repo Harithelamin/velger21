@@ -41,7 +41,7 @@
 </nav>
 
 <!--første side-->
-<div id="Home" class="container"*ngIf="firstpage" >
+<div id="Home" class="container" *ngIf="firstpage" >
   <div class="container container h-100 d-flex justify-content-center" style="padding-top: 2rem; padding-bottom: 5rem; ">
     <h1>Velkommen til velger.no</h1> <br>
   </div>
@@ -60,18 +60,18 @@
 
 <!-- login  -->
 <div id="login" class="login-form"  *ngIf="showLogin" style="align-content:center; margin-left: 5rem; margin-right: 5rem ">
-  <form *ngIf="!isLoggedIn"name="formLogin"(ngSubmit)="f.form.valid && onSubmitLogin()" #f="ngForm" novalidate>
+  <form *ngIf= "!isLoggedIn" name= "formLogin" (ngSubmit)="f.form.valid && onSubmitLogin()" #f="ngForm" novalidate>
     <h2>Innloggingsskjema</h2>
     <div class="form-group">
-      <label for="username">Brukernavn</label>
+      <label for = "username" >Brukernavn</label>
       <input type="text"  class="form-control" name="username" [(ngModel)]="formLogin.username"
              required #username="ngModel"/>
-      <div class="alert alert-danger"role="alert" *ngIf="f.submitted && username.invalid"> Username is required! </div>
+      <div class = "alert alert-danger" role="alert" *ngIf="f.submitted && username.invalid"> Username is required! </div>
     </div>
 
     <div class="form-group">
       <label for="password">Passord</label>
-      <input type="password" class="form-control"name="password" [(ngModel)]="formLogin.password"
+      <input type="password" class="form-control" name="password" [(ngModel)]="formLogin.password"
              required minlength="4"#password="ngModel"/>
       <div class="alert alert-danger" role="alert"  *ngIf="f.submitted && password.invalid" >
       <div *ngIf="password.errors.required">Password is required</div>
@@ -85,9 +85,8 @@
 </div>
 
 <!-- Register UserProfile  -->
-
 <div *ngIf="showUserProfileRegisterForm" class="container">
-  <form *ngIf="!isSuccessful"name="formRegisterUser" (ngSubmit)="f.form.valid && onSubmitRegisterUser()" #f="ngForm" novalidate>
+  <form *ngIf="!isSuccessful" name="formRegisterUser" (ngSubmit)="f.form.valid && onSubmitRegisterUser()" #f="ngForm" novalidate>
     <h2> Registrering</h2>
     <!--
        <div class="form-group">
@@ -117,7 +116,7 @@
 
    <div class="form-group">
      <label for="email">* Email</label>
-     <input type="email"class="form-control" name="email" [(ngModel)]="formRegisterUser.email" required email #email="ngModel"/>
+     <input type="email" class="form-control" name="email" [(ngModel)]="formRegisterUser.email" required email #email="ngModel"/>
      <div class="alert-danger" *ngIf="f.submitted && email.invalid">
        <div *ngIf="email.errors.required">Email is required</div>
        <div *ngIf="email.errors.email">Email must be a valid email address</div>
@@ -126,7 +125,7 @@
 
    <div class="form-group">
      <label for="password">* Passord</label>
-     <input type="password" class="form-control" name="password"[(ngModel)]="formRegisterUser.password" required minlength="4"  maxlength="4" #password="ngModel"/>
+     <input type="password" class="form-control" name="password" [(ngModel)]="formRegisterUser.password" required minlength="4"  maxlength="4" #password="ngModel"/>
      <div class="alert-danger" *ngIf="f.submitted && password.invalid">
        <div *ngIf="password.errors.required">Password is required</div>
        <div *ngIf="password.errors.minlength">Password must be 4 characters</div>
@@ -136,7 +135,7 @@
 
    <div class="form-group">
     <label for="confirmPassword">* Bekreft passord</label>
-    <input type="password" class="form-control" name="confirmPassword"[(ngModel)]="formRegisterUser.confirmPassword" required minlength="4"  maxlength="4" required
+    <input type="password" class="form-control" name="confirmPassword" [(ngModel)]="formRegisterUser.confirmPassword" required minlength="4"  maxlength="4" required
     appEqualValidator='password' #confirmPassword="ngModel"/>
     <div class="alert-danger" *ngIf="f.submitted && confirmPassword.invalid">
       <div *ngIf="confirmPassword.errors.required">ConfirmPassword is required</div>
@@ -153,20 +152,18 @@
    <div class="alert alert-warning" *ngIf="f.submitted && isSignUpFailed">
     *  fields are required!<br />{{ errorMessage }}
    </div>
-
   </form>
 </div>
 
 <!-- Static  -->
 <div id="static" class="container"  *ngIf="showStatic">
-  <a class="navbar-brand" href="">
-    <img src="assets/img/statisk.jpg" alt="" width="600" height="400">
-</a>
+  <h1>Valg statestikk kommer her</h1>
+  <app-bar></app-bar>
 </div>
 
 
 <!-- About -->
-<div class="container"*ngIf="showAbout">
+<div class="container" *ngIf="showAbout">
   <h2>Om Valger 21</h2>
   <p>Hvordan jeg tenker at Velgerguiden 2021 bør fungere?</p>
   <p>1. Brukeren skal kunne gjennomføre hele velgerguiden anonymt hvis de ønsker det.</p>
@@ -197,19 +194,19 @@
   </div>
 
 <!-- Ta Testen -->
-<div id="Test" class="container"*ngIf="showTest" >
+<div id="Test" class="container" *ngIf="showTest" >
  <!-- leggin kode for testen her -->
   <h1>Velgertest kommer her</h1>
 </div>
 
 <!--Ta kontakt-->
-<div id="contact" class="container"*ngIf="showContact">
+<div id="contact" class="container" *ngIf="showContact">
 <!--contact content her-->
   <h1>Ta kontakt kommer her</h1>
 </div>
 
 <!--FAQ-->
-<div id="Faq" class="container"*ngIf="showFaq">
+<div id="Faq" class="container" *ngIf="showFaq">
   <!--FAQ content her-->
 
   <div class="container">
