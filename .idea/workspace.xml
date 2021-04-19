@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="878b922f-23c5-422e-a227-b69f8f24edf8" name="Default Changelist" comment="startet på statestic opprettet en compnet bar med kode for statestikk">
+    <list default="true" id="878b922f-23c5-422e-a227-b69f8f24edf8" name="Default Changelist" comment="endret tex for en p dat for bar.componet">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/velgerguideClient/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/velgerguideClient/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/velgerguideClient/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/velgerguideClient/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/velgerguideClient/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/velgerguideClient/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/velgerguideClient/src/app/bar/bar.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/velgerguideClient/src/app/bar/bar.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/velgerguideClient/src/app/bar/bar.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/velgerguideClient/src/app/bar/bar.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/velgerguideClient/src/app/bar/bar.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/velgerguideClient/src/app/bar/bar.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -207,15 +212,13 @@
     </option>
   </component>
   <component name="RunManager" selected="npm.Angular CLI Server (velgerguideClient)">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -354,7 +357,9 @@
       <workItem from="1616951496321" duration="1059000" />
       <workItem from="1617731955356" duration="3679000" />
       <workItem from="1617795833118" duration="14316000" />
-      <workItem from="1618561694532" duration="12165000" />
+      <workItem from="1618561694532" duration="12609000" />
+      <workItem from="1618660986650" duration="5694000" />
+      <workItem from="1618738605016" duration="17466000" />
     </task>
     <task id="LOCAL−00001" summary="fikset design for navbar og footer">
       <created>1616951013125</created>
@@ -410,7 +415,19 @@
       <option name="presentableId" value="LOCAL−00009" />
       <updated>1618600600624</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL−00010" summary="lagt til id username,  id password og id email for html slik at label refererer til unik id">
+      <created>1618601242579</created>
+      <option name="number" value="LOCAL−00010" />
+      <option name="presentableId" value="LOCAL−00010" />
+      <updated>1618601242580</updated>
+    </task>
+    <task id="LOCAL−00011" summary="endret tex for en p dat for bar.componet">
+      <created>1618601369084</created>
+      <option name="number" value="LOCAL−00011" />
+      <option name="presentableId" value="LOCAL−00011" />
+      <updated>1618601369084</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -520,7 +537,9 @@
     <MESSAGE value="lagt in style for start knapp slik at størrelse kan velges" />
     <MESSAGE value="endret Hjem knappen til Logg inn" />
     <MESSAGE value="startet på statestic opprettet en compnet bar med kode for statestikk" />
-    <option name="LAST_COMMIT_MESSAGE" value="startet på statestic opprettet en compnet bar med kode for statestikk" />
+    <MESSAGE value="lagt til id username,  id password og id email for html slik at label refererer til unik id" />
+    <MESSAGE value="endret tex for en p dat for bar.componet" />
+    <option name="LAST_COMMIT_MESSAGE" value="endret tex for en p dat for bar.componet" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/cli/tsconfig.app.json" />

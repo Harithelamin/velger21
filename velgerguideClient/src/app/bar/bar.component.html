@@ -1,9 +1,13 @@
-<p>bar chart skla være her</p>
-<!--<div id="divChart">
-  <canvas id="myChart"></canvas>
+<div class="container container h-100 d-flex justify-content-center">
+  <h1>Valg statestikk</h1>
 </div>
--->
-<div>
-  <canvas id="barCanvas" style="height:10vh; width:20vw"></canvas>
+<div class="chart-wrapper">
+  <canvas baseChart
+          [data]="barChartData"
+          [labels]="barChartLabels"
+          [options]="barChartOptions"
+          [plugins]="barChartPlugins"
+          [chartType]="barChartType"
+          [colors]="barChartColors">
+  </canvas>
 </div>
-

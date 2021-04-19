@@ -6,6 +6,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { BarComponent } from './bar/bar.component';
+import {ChartsModule} from 'ng2-charts';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { BarComponent } from './bar/bar.component';
     HttpClientModule,
     ReactiveFormsModule,
     NgbModule,
+    ChartsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
