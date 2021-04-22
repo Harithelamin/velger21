@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="878b922f-23c5-422e-a227-b69f8f24edf8" name="Default Changelist" comment="lagt til felt for E-post på kontaktskjema">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/velgerguideClient/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/velgerguideClient/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/velgerguideClient/src/app/bar/bar.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/velgerguideClient/src/app/bar/bar.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/velgerguideClient/src/app/bar/bar.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/velgerguideClient/src/app/bar/bar.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/velgerguideClient/src/app/bar/bar.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/velgerguideClient/src/app/bar/bar.component.ts" afterDir="false" />
-    </list>
+    <list default="true" id="878b922f-23c5-422e-a227-b69f8f24edf8" name="Default Changelist" comment="endret på Barchart gjort coden mer lesbar" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -362,7 +356,7 @@
       <workItem from="1618660986650" duration="5694000" />
       <workItem from="1618738605016" duration="17740000" />
       <workItem from="1618990439922" duration="5305000" />
-      <workItem from="1619087350517" duration="17946000" />
+      <workItem from="1619087350517" duration="18370000" />
     </task>
     <task id="LOCAL−00001" summary="fikset design for navbar og footer">
       <created>1616951013125</created>
@@ -448,7 +442,13 @@
       <option name="presentableId" value="LOCAL−00014" />
       <updated>1619091321491</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL−00015" summary="endret på Barchart gjort coden mer lesbar">
+      <created>1619106205652</created>
+      <option name="number" value="LOCAL−00015" />
+      <option name="presentableId" value="LOCAL−00015" />
+      <updated>1619106205652</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -573,7 +573,8 @@
     <MESSAGE value="BarCart exempel opprettet. for stattestikk siden" />
     <MESSAGE value="Html for kontakt skjema opprettet" />
     <MESSAGE value="lagt til felt for E-post på kontaktskjema" />
-    <option name="LAST_COMMIT_MESSAGE" value="lagt til felt for E-post på kontaktskjema" />
+    <MESSAGE value="endret på Barchart gjort coden mer lesbar" />
+    <option name="LAST_COMMIT_MESSAGE" value="endret på Barchart gjort coden mer lesbar" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/cli/tsconfig.app.json" />
