@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="878b922f-23c5-422e-a227-b69f8f24edf8" name="Default Changelist" comment="endret tex for en p dat for bar.componet">
+    <list default="true" id="878b922f-23c5-422e-a227-b69f8f24edf8" name="Default Changelist" comment="BarCart exempel opprettet. for stattestikk siden">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/velgerguideClient/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/velgerguideClient/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/velgerguideClient/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/velgerguideClient/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/velgerguideClient/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/velgerguideClient/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/velgerguideClient/src/app/bar/bar.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/velgerguideClient/src/app/bar/bar.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/velgerguideClient/src/app/bar/bar.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/velgerguideClient/src/app/bar/bar.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/velgerguideClient/src/app/bar/bar.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/velgerguideClient/src/app/bar/bar.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,7 +170,7 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.vendoring.notification.had.been.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="13" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../testingNettbank" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/velgerguideClient/src/app/bar" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
@@ -193,13 +188,16 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\kimpa\Documents\GitHub\velger21\velgerguideClient\src\app\bar" />
       <recent name="C:\Users\Harith\IdeaProjects\Velgerguide2021" />
       <recent name="C:\Users\Harith\IdeaProjects\Velgerguide2021\cli" />
       <recent name="C:\Users\Harith\IdeaProjects\Velgerguide2021\v21" />
       <recent name="C:\Users\Harith\IdeaProjects\Velgerguide2021\v21\src\main\resources" />
-      <recent name="C:\Users\Harith\IdeaProjects\Velgerguide2021\v21\src\main" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\kimpa\Documents\GitHub\velger21\velgerguideClient\src" />
+      <recent name="C:\Users\kimpa\Documents\GitHub\velger21\velgerguideClient\src\environments" />
+      <recent name="C:\Users\kimpa\Documents\GitHub\velger21\velgerguideClient\src\app\bar" />
       <recent name="C:\Users\Harith\IdeaProjects\Velgerguide2021\v21\src\main" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -359,7 +357,9 @@
       <workItem from="1617795833118" duration="14316000" />
       <workItem from="1618561694532" duration="12609000" />
       <workItem from="1618660986650" duration="5694000" />
-      <workItem from="1618738605016" duration="17466000" />
+      <workItem from="1618738605016" duration="17740000" />
+      <workItem from="1618990439922" duration="5305000" />
+      <workItem from="1619087350517" duration="3220000" />
     </task>
     <task id="LOCAL−00001" summary="fikset design for navbar og footer">
       <created>1616951013125</created>
@@ -427,7 +427,13 @@
       <option name="presentableId" value="LOCAL−00011" />
       <updated>1618601369084</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL−00012" summary="BarCart exempel opprettet. for stattestikk siden">
+      <created>1618857798192</created>
+      <option name="number" value="LOCAL−00012" />
+      <option name="presentableId" value="LOCAL−00012" />
+      <updated>1618857798192</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -539,7 +545,8 @@
     <MESSAGE value="startet på statestic opprettet en compnet bar med kode for statestikk" />
     <MESSAGE value="lagt til id username,  id password og id email for html slik at label refererer til unik id" />
     <MESSAGE value="endret tex for en p dat for bar.componet" />
-    <option name="LAST_COMMIT_MESSAGE" value="endret tex for en p dat for bar.componet" />
+    <MESSAGE value="BarCart exempel opprettet. for stattestikk siden" />
+    <option name="LAST_COMMIT_MESSAGE" value="BarCart exempel opprettet. for stattestikk siden" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/cli/tsconfig.app.json" />
