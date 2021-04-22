@@ -59,9 +59,9 @@
 </div>
 
 <!-- login  -->
-<div id="login" class="login-form"  *ngIf="showLogin" style="align-content:center; margin-left: 5rem; margin-right: 5rem ">
+<div id="login" class="container"  *ngIf="showLogin">
   <form *ngIf= "!isLoggedIn" name= "formLogin" (ngSubmit)="f.form.valid && onSubmitLogin()" #f="ngForm" novalidate>
-    <h2>Innloggingsskjema</h2>
+    <h2>Inlogging</h2>
     <div class="form-group">
       <label for = "username" >Brukernavn</label>
       <input type="text"  class="form-control" name="username" id="username" [(ngModel)]="formLogin.username"
@@ -85,7 +85,7 @@
 </div>
 
 <!-- Register UserProfile  -->
-<div *ngIf="showUserProfileRegisterForm" class="container">
+<div id="register" class="container"  *ngIf="showUserProfileRegisterForm">
   <form *ngIf="!isSuccessful" name="formRegisterUser" (ngSubmit)="f.form.valid && onSubmitRegisterUser()" #f="ngForm" novalidate>
     <h2> Registrering</h2>
     <!--
@@ -157,6 +157,7 @@
 
 <!-- Static  -->
 <div id="static" class="container"  *ngIf="showStatic">
+  <h2>Valg statestikk</h2>
   <app-bar></app-bar>
 </div>
 
@@ -195,12 +196,12 @@
 <!-- Ta Testen -->
 <div id="Test" class="container" *ngIf="showTest" >
  <!-- leggin kode for testen her -->
-  <h1>Velgertest kommer her</h1>
+  <h2>Velgertest kommer her</h2>
 </div>
 
 <!--Ta kontakt-->
 <div id="contact" class="container" *ngIf="showContact">
-  <h1>Ta kontakt</h1>
+  <h2>Ta kontakt</h2>
   <div class="container">
     <form name="formContact">
       <div class="form-group" >

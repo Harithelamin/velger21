@@ -1,13 +1,11 @@
-<div class="container container h-100 d-flex justify-content-center">
-  <h1>Valg statestikk</h1>
-</div>
 <div class="chart-wrapper">
   <canvas baseChart
-          [data]="barChartData"
+          [datasets]="barChartData"
           [labels]="barChartLabels"
           [options]="barChartOptions"
           [plugins]="barChartPlugins"
           [chartType]="barChartType"
+          [legend]="barChartLegend"
           [colors]="barChartColors">
   </canvas>
 </div>
