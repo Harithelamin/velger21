@@ -4,17 +4,11 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="878b922f-23c5-422e-a227-b69f8f24edf8" name="Default Changelist" comment="Fjernet en div tag for Ta Kontakt">
-      <change afterPath="$PROJECT_DIR$/velgerguideClient/src/assets/img/2020 kløver RGB.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velgerguideClient/src/assets/img/2020_RGB_hoyre_logo_blaa_vimpel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velgerguideClient/src/assets/img/Arbeiderpartiet_rosesymbol_rod_72ppi_RGB.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velgerguideClient/src/assets/img/FrP_eple_NEG.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velgerguideClient/src/assets/img/Logo-RGB_Logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velgerguideClient/src/assets/img/MDG_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velgerguideClient/src/assets/img/Roedt.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velgerguideClient/src/assets/img/Venstre_Hovedlogo_rgb_positiv.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velgerguideClient/src/assets/img/krf_logo2017-1.png" afterDir="false" />
+    <list default="true" id="878b922f-23c5-422e-a227-b69f8f24edf8" name="Default Changelist" comment="lagt in bildene under statestikken">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/velgerguideClient/src/app/bar/bar.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/velgerguideClient/src/app/bar/bar.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/velgerguideClient/src/app/bar/bar.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/velgerguideClient/src/app/bar/bar.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/velgerguideClient/src/app/bar/bar.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/velgerguideClient/src/app/bar/bar.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -371,7 +365,7 @@
       <workItem from="1618738605016" duration="17740000" />
       <workItem from="1618990439922" duration="5305000" />
       <workItem from="1619087350517" duration="18758000" />
-      <workItem from="1619167726122" duration="2452000" />
+      <workItem from="1619167726122" duration="11871000" />
     </task>
     <task id="LOCAL−00001" summary="fikset design for navbar og footer">
       <created>1616951013125</created>
@@ -475,7 +469,13 @@
       <option name="presentableId" value="LOCAL−00017" />
       <updated>1619106435812</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL−00018" summary="Lagt inn parilogoer i assets/img">
+      <created>1619170464483</created>
+      <option name="number" value="LOCAL−00018" />
+      <option name="presentableId" value="LOCAL−00018" />
+      <updated>1619170464483</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -603,7 +603,9 @@
     <MESSAGE value="lagt til felt for E-post på kontaktskjema" />
     <MESSAGE value="endret på Barchart gjort coden mer lesbar" />
     <MESSAGE value="Fjernet en div tag for Ta Kontakt" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fjernet en div tag for Ta Kontakt" />
+    <MESSAGE value="Lagt inn parilogoer i assets/img" />
+    <MESSAGE value="lagt in bildene under statestikken" />
+    <option name="LAST_COMMIT_MESSAGE" value="lagt in bildene under statestikken" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/cli/tsconfig.app.json" />
