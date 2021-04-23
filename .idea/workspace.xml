@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="878b922f-23c5-422e-a227-b69f8f24edf8" name="Default Changelist" comment="lagt in bildene under statestikken">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/velgerguideClient/src/app/bar/bar.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/velgerguideClient/src/app/bar/bar.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/velgerguideClient/src/app/bar/bar.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/velgerguideClient/src/app/bar/bar.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/velgerguideClient/src/app/bar/bar.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/velgerguideClient/src/app/bar/bar.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/velgerguideClient/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/velgerguideClient/src/app/app.module.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -213,19 +211,6 @@
     </option>
   </component>
   <component name="RunManager" selected="npm.Angular CLI Server (velgerguideClient)">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="Velgerguide2021" />
       <working_directory value="$PROJECT_DIR$" />
@@ -315,6 +300,16 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="ng" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/velgerguideClient/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="ng" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Go Build.go build cli/" />
       <item itemvalue="Go Build.go build velgerguideClient/" />
@@ -322,12 +317,14 @@
       <item itemvalue="JavaScript Debug.localhost:4200" />
       <item itemvalue="npm.Angular CLI Server (cli)" />
       <item itemvalue="npm.Angular CLI Server (velgerguideClient)" />
+      <item itemvalue="npm.ng" />
       <item itemvalue="Protractor.E2E Tests (cli)" />
       <item itemvalue="Protractor.E2E Tests (velgerguideClient)" />
       <item itemvalue="Spring Boot.Application" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.ng" />
         <item itemvalue="JavaScript Debug.localhost:4200" />
         <item itemvalue="Go Build.go build velgerguideClient/" />
         <item itemvalue="Go Build.go build cli/" />
@@ -365,7 +362,8 @@
       <workItem from="1618738605016" duration="17740000" />
       <workItem from="1618990439922" duration="5305000" />
       <workItem from="1619087350517" duration="18758000" />
-      <workItem from="1619167726122" duration="11871000" />
+      <workItem from="1619167726122" duration="13189000" />
+      <workItem from="1619181546012" duration="393000" />
     </task>
     <task id="LOCAL−00001" summary="fikset design for navbar og footer">
       <created>1616951013125</created>
@@ -475,7 +473,13 @@
       <option name="presentableId" value="LOCAL−00018" />
       <updated>1619170464483</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL−00019" summary="lagt in bildene under statestikken">
+      <created>1619180205082</created>
+      <option name="number" value="LOCAL−00019" />
+      <option name="presentableId" value="LOCAL−00019" />
+      <updated>1619180205082</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
