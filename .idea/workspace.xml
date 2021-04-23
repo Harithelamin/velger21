@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="878b922f-23c5-422e-a227-b69f8f24edf8" name="Default Changelist" comment="endret på Barchart gjort coden mer lesbar" />
+    <list default="true" id="878b922f-23c5-422e-a227-b69f8f24edf8" name="Default Changelist" comment="Fjernet en div tag for Ta Kontakt">
+      <change afterPath="$PROJECT_DIR$/velgerguideClient/src/assets/img/2020 kløver RGB.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/velgerguideClient/src/assets/img/2020_RGB_hoyre_logo_blaa_vimpel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/velgerguideClient/src/assets/img/Arbeiderpartiet_rosesymbol_rod_72ppi_RGB.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/velgerguideClient/src/assets/img/FrP_eple_NEG.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/velgerguideClient/src/assets/img/Logo-RGB_Logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/velgerguideClient/src/assets/img/MDG_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/velgerguideClient/src/assets/img/Roedt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/velgerguideClient/src/assets/img/Venstre_Hovedlogo_rgb_positiv.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/velgerguideClient/src/assets/img/krf_logo2017-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -192,6 +203,7 @@
       <recent name="C:\Users\Harith\IdeaProjects\Velgerguide2021\v21\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\kimpa\Documents\GitHub\velger21\velgerguideClient\src\assets\img" />
       <recent name="C:\Users\kimpa\Documents\GitHub\velger21\velgerguideClient\src" />
       <recent name="C:\Users\kimpa\Documents\GitHub\velger21\velgerguideClient\src\environments" />
       <recent name="C:\Users\kimpa\Documents\GitHub\velger21\velgerguideClient\src\app\bar" />
@@ -207,13 +219,15 @@
     </option>
   </component>
   <component name="RunManager" selected="npm.Angular CLI Server (velgerguideClient)">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -356,7 +370,8 @@
       <workItem from="1618660986650" duration="5694000" />
       <workItem from="1618738605016" duration="17740000" />
       <workItem from="1618990439922" duration="5305000" />
-      <workItem from="1619087350517" duration="18370000" />
+      <workItem from="1619087350517" duration="18758000" />
+      <workItem from="1619167726122" duration="2452000" />
     </task>
     <task id="LOCAL−00001" summary="fikset design for navbar og footer">
       <created>1616951013125</created>
@@ -448,7 +463,19 @@
       <option name="presentableId" value="LOCAL−00015" />
       <updated>1619106205652</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL−00016" summary="endret på Barchart gjort coden mer lesbar">
+      <created>1619106297136</created>
+      <option name="number" value="LOCAL−00016" />
+      <option name="presentableId" value="LOCAL−00016" />
+      <updated>1619106297136</updated>
+    </task>
+    <task id="LOCAL−00017" summary="Fjernet en div tag for Ta Kontakt">
+      <created>1619106435812</created>
+      <option name="number" value="LOCAL−00017" />
+      <option name="presentableId" value="LOCAL−00017" />
+      <updated>1619106435812</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -537,6 +564,7 @@
     <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.History.Properties">
+    <option name="SHOW_OTHER_BRANCHES" value="true" />
     <option name="COLUMN_ID_ORDER">
       <list>
         <option value="Default.Root" />
@@ -574,7 +602,8 @@
     <MESSAGE value="Html for kontakt skjema opprettet" />
     <MESSAGE value="lagt til felt for E-post på kontaktskjema" />
     <MESSAGE value="endret på Barchart gjort coden mer lesbar" />
-    <option name="LAST_COMMIT_MESSAGE" value="endret på Barchart gjort coden mer lesbar" />
+    <MESSAGE value="Fjernet en div tag for Ta Kontakt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fjernet en div tag for Ta Kontakt" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/cli/tsconfig.app.json" />
