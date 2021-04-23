@@ -44,6 +44,7 @@ export class AppComponent {
   showFaq: boolean;
   showContact: boolean;
   firstpage: boolean;
+  showTesten: boolean;
 
   constructor(
     private authService: AuthService,
@@ -76,6 +77,7 @@ export class AppComponent {
     this.showAbout = false;
     this.showStatic = false;
     this.showTest = false;
+    this.showTesten = false;
     this.showFaq = false;
     this.showContact = false;
     this.firstpage = true;
@@ -86,6 +88,7 @@ export class AppComponent {
     this.showUserProfileRegisterForm = false;
     this.showStatic = false;
     this.showTest = false;
+    this.showTesten = false;
     this.showFaq = false;
     this.showContact = false;
     this.firstpage = false;
@@ -96,6 +99,7 @@ export class AppComponent {
     this.showUserProfileRegisterForm = false;
     this.showStatic = false;
     this.showTest = false;
+    this.showTesten = false;
     this.showFaq = false;
     this.showContact = false;
     this.firstpage = false;
@@ -106,6 +110,7 @@ export class AppComponent {
     this.showAbout = false;
     this.showStatic = false;
     this.showTest = false;
+    this.showTesten = false;
     this.showFaq = false;
     this.showContact = false;
     this.firstpage = false;
@@ -116,6 +121,7 @@ export class AppComponent {
     this.showLogin = false;
     this.showUserProfileRegisterForm = false;
     this.showTest = false;
+    this.showTesten = false;
     this.showFaq = false;
     this.showContact = false;
     this.firstpage = false;
@@ -132,9 +138,11 @@ export class AppComponent {
     this.firstpage = false;
   }
 
+
   onSubmitShowContact() {
     this.showContact = true;
     this.showTest = false;
+    this.showTesten = false;
     this.showStatic = false;
     this.showAbout = false;
     this.showLogin = false;
@@ -146,6 +154,7 @@ export class AppComponent {
   onSubmitShowFaq() {
     this.showFaq = true;
     this.showTest = false;
+    this.showTesten = false;
     this.showStatic = false;
     this.showAbout = false;
     this.showLogin = false;
@@ -221,6 +230,20 @@ loadRolesProfiles(){
        */
     });
   }
+
+  onSubmitShowTesten() {
+    this.showTesten = true;
+    this.showTest = false;
+    this.showStatic = false;
+    this.showAbout = false;
+    this.showLogin = false;
+    this.showUserProfileRegisterForm = false;
+    this.showFaq = false;
+    this.showContact = false;
+    this.firstpage = false;
+  }
+
+
 }
 
 
