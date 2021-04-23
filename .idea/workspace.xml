@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="878b922f-23c5-422e-a227-b69f8f24edf8" name="Default Changelist" comment="opprettet div for selve Ta kontakt hvor kode for contact skal inn, samt lagti in nødvendig kode i app.component.ts for å vise element nåt Ta kontakt trykkes i nav bar.">
+    <list default="true" id="878b922f-23c5-422e-a227-b69f8f24edf8" name="Default Changelist" comment="lagt in bildene under statestikken">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/velgerguideClient/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/velgerguideClient/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/velgerguideClient/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/velgerguideClient/src/app/app.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/velgerguideClient/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/velgerguideClient/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/velgerguideClient/src/app/bar/bar.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/velgerguideClient/src/app/bar/bar.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/velgerguideClient/src/app/bar/bar.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/velgerguideClient/src/app/bar/bar.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/velgerguideClient/src/app/bar/bar.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/velgerguideClient/src/app/bar/bar.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +34,6 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
-        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -173,10 +172,10 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.vendoring.notification.had.been.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="13" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../testingNettbank" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/velgerguideClient/src/app/bar" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.tslint" value="C:\Users\Harith\IdeaProjects\Velgerguide2021\cli\node_modules\tslint" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs.protractor.protractor_package" value="$PROJECT_DIR$/velgerguideClient/node_modules/protractor" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -191,13 +190,17 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\kimpa\Documents\GitHub\velger21\velgerguideClient\src\app\bar" />
       <recent name="C:\Users\Harith\IdeaProjects\Velgerguide2021" />
       <recent name="C:\Users\Harith\IdeaProjects\Velgerguide2021\cli" />
       <recent name="C:\Users\Harith\IdeaProjects\Velgerguide2021\v21" />
       <recent name="C:\Users\Harith\IdeaProjects\Velgerguide2021\v21\src\main\resources" />
-      <recent name="C:\Users\Harith\IdeaProjects\Velgerguide2021\v21\src\main" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\kimpa\Documents\GitHub\velger21\velgerguideClient\src\assets\img" />
+      <recent name="C:\Users\kimpa\Documents\GitHub\velger21\velgerguideClient\src" />
+      <recent name="C:\Users\kimpa\Documents\GitHub\velger21\velgerguideClient\src\environments" />
+      <recent name="C:\Users\kimpa\Documents\GitHub\velger21\velgerguideClient\src\app\bar" />
       <recent name="C:\Users\Harith\IdeaProjects\Velgerguide2021\v21\src\main" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -209,14 +212,16 @@
       <command value="mvn clean install" />
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Application">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="npm.Angular CLI Server (velgerguideClient)">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -226,8 +231,8 @@
       <working_directory value="$PROJECT_DIR$" />
       <go_parameters value="-i" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$" />
       <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
     <configuration name="go build cli/" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -235,8 +240,8 @@
       <working_directory value="$PROJECT_DIR$" />
       <go_parameters value="-i" />
       <kind value="DIRECTORY" />
-      <filePath value="$PROJECT_DIR$" />
       <directory value="$PROJECT_DIR$/cli" />
+      <filePath value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
     <configuration name="go build velgerguideClient/" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -244,18 +249,18 @@
       <working_directory value="$PROJECT_DIR$" />
       <go_parameters value="-i" />
       <kind value="DIRECTORY" />
-      <filePath value="$PROJECT_DIR$" />
       <directory value="$PROJECT_DIR$/velgerguideClient" />
+      <filePath value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
       <module name="Velgerguide2021" />
       <working_directory value="$PROJECT_DIR$" />
       <go_parameters value="-i" />
-      <framework value="gotest" />
       <kind value="DIRECTORY" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
       <method v="2" />
     </configuration>
     <configuration name="E2E Tests (cli)" type="JavaScriptTestRunnerProtractor">
@@ -355,7 +360,12 @@
       <workItem from="1616951496321" duration="1059000" />
       <workItem from="1617731955356" duration="3679000" />
       <workItem from="1617795833118" duration="14316000" />
-      <workItem from="1618561694532" duration="12165000" />
+      <workItem from="1618561694532" duration="12609000" />
+      <workItem from="1618660986650" duration="5694000" />
+      <workItem from="1618738605016" duration="17740000" />
+      <workItem from="1618990439922" duration="5305000" />
+      <workItem from="1619087350517" duration="18758000" />
+      <workItem from="1619167726122" duration="11871000" />
     </task>
     <task id="LOCAL−00001" summary="fikset design for navbar og footer">
       <created>1616951013125</created>
@@ -411,7 +421,61 @@
       <option name="presentableId" value="LOCAL−00009" />
       <updated>1618600600624</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL−00010" summary="lagt til id username,  id password og id email for html slik at label refererer til unik id">
+      <created>1618601242579</created>
+      <option name="number" value="LOCAL−00010" />
+      <option name="presentableId" value="LOCAL−00010" />
+      <updated>1618601242580</updated>
+    </task>
+    <task id="LOCAL−00011" summary="endret tex for en p dat for bar.componet">
+      <created>1618601369084</created>
+      <option name="number" value="LOCAL−00011" />
+      <option name="presentableId" value="LOCAL−00011" />
+      <updated>1618601369084</updated>
+    </task>
+    <task id="LOCAL−00012" summary="BarCart exempel opprettet. for stattestikk siden">
+      <created>1618857798192</created>
+      <option name="number" value="LOCAL−00012" />
+      <option name="presentableId" value="LOCAL−00012" />
+      <updated>1618857798192</updated>
+    </task>
+    <task id="LOCAL−00013" summary="Html for kontakt skjema opprettet">
+      <created>1619090927556</created>
+      <option name="number" value="LOCAL−00013" />
+      <option name="presentableId" value="LOCAL−00013" />
+      <updated>1619090927557</updated>
+    </task>
+    <task id="LOCAL−00014" summary="lagt til felt for E-post på kontaktskjema">
+      <created>1619091321491</created>
+      <option name="number" value="LOCAL−00014" />
+      <option name="presentableId" value="LOCAL−00014" />
+      <updated>1619091321491</updated>
+    </task>
+    <task id="LOCAL−00015" summary="endret på Barchart gjort coden mer lesbar">
+      <created>1619106205652</created>
+      <option name="number" value="LOCAL−00015" />
+      <option name="presentableId" value="LOCAL−00015" />
+      <updated>1619106205652</updated>
+    </task>
+    <task id="LOCAL−00016" summary="endret på Barchart gjort coden mer lesbar">
+      <created>1619106297136</created>
+      <option name="number" value="LOCAL−00016" />
+      <option name="presentableId" value="LOCAL−00016" />
+      <updated>1619106297136</updated>
+    </task>
+    <task id="LOCAL−00017" summary="Fjernet en div tag for Ta Kontakt">
+      <created>1619106435812</created>
+      <option name="number" value="LOCAL−00017" />
+      <option name="presentableId" value="LOCAL−00017" />
+      <updated>1619106435812</updated>
+    </task>
+    <task id="LOCAL−00018" summary="Lagt inn parilogoer i assets/img">
+      <created>1619170464483</created>
+      <option name="number" value="LOCAL−00018" />
+      <option name="presentableId" value="LOCAL−00018" />
+      <updated>1619170464483</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -499,6 +563,17 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="SHOW_OTHER_BRANCHES" value="true" />
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+      </list>
+    </option>
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -521,7 +596,16 @@
     <MESSAGE value="lagt in style for start knapp slik at størrelse kan velges" />
     <MESSAGE value="endret Hjem knappen til Logg inn" />
     <MESSAGE value="startet på statestic opprettet en compnet bar med kode for statestikk" />
-    <option name="LAST_COMMIT_MESSAGE" value="startet på statestic opprettet en compnet bar med kode for statestikk" />
+    <MESSAGE value="lagt til id username,  id password og id email for html slik at label refererer til unik id" />
+    <MESSAGE value="endret tex for en p dat for bar.componet" />
+    <MESSAGE value="BarCart exempel opprettet. for stattestikk siden" />
+    <MESSAGE value="Html for kontakt skjema opprettet" />
+    <MESSAGE value="lagt til felt for E-post på kontaktskjema" />
+    <MESSAGE value="endret på Barchart gjort coden mer lesbar" />
+    <MESSAGE value="Fjernet en div tag for Ta Kontakt" />
+    <MESSAGE value="Lagt inn parilogoer i assets/img" />
+    <MESSAGE value="lagt in bildene under statestikken" />
+    <option name="LAST_COMMIT_MESSAGE" value="lagt in bildene under statestikken" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/cli/tsconfig.app.json" />

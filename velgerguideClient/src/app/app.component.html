@@ -59,14 +59,14 @@
 </div>
 
 <!-- login  -->
-<div id="login" class="login-form"  *ngIf="showLogin" style="align-content:center; margin-left: 5rem; margin-right: 5rem ">
+<div id="login" class="container"  *ngIf="showLogin">
   <form *ngIf= "!isLoggedIn" name= "formLogin" (ngSubmit)="f.form.valid && onSubmitLogin()" #f="ngForm" novalidate>
-    <h2>Innloggingsskjema</h2>
+    <h2>Inlogging</h2>
     <div class="form-group">
       <label for = "username" >Brukernavn</label>
       <input type="text"  class="form-control" name="username" id="username" [(ngModel)]="formLogin.username"
              required #username="ngModel"/>
-      <div class = "alert alert-danger" role="alert" *ngIf="f.submitted && username.invalid"> Username is required! </div>
+      <div class = "alert alert-danger" role="alert" *ngIf="f.submitted && username.invalid"> Brukernavn kreves! </div>
     </div>
 
     <div class="form-group">
@@ -74,8 +74,8 @@
       <input type="password" class="form-control" name="password" id="password" [(ngModel)]="formLogin.password"
              required minlength="4"#password="ngModel"/>
       <div class="alert alert-danger" role="alert"  *ngIf="f.submitted && password.invalid" >
-      <div *ngIf="password.errors.required">Password is required</div>
-      <div *ngIf="password.errors.minlength">Password must be 4 characters</div>
+      <div *ngIf="password.errors.required">passord kreves</div>
+      <div *ngIf="password.errors.minlength">passord må bestå av 4 tegn eller mer</div>
     </div>
     </div>
     <div class="form-group">
@@ -85,7 +85,7 @@
 </div>
 
 <!-- Register UserProfile  -->
-<div *ngIf="showUserProfileRegisterForm" class="container">
+<div id="register" class="container"  *ngIf="showUserProfileRegisterForm">
   <form *ngIf="!isSuccessful" name="formRegisterUser" (ngSubmit)="f.form.valid && onSubmitRegisterUser()" #f="ngForm" novalidate>
     <h2> Registrering</h2>
     <!--
@@ -118,8 +118,8 @@
      <label for="email">* E-post</label>
      <input type="email" class="form-control" name="email" id="email" [(ngModel)]="formRegisterUser.email" required email #email="ngModel"/>
      <div class="alert-danger" *ngIf="f.submitted && email.invalid">
-       <div *ngIf="email.errors.required">Email is required</div>
-       <div *ngIf="email.errors.email">Email must be a valid email address</div>
+       <div *ngIf="email.errors.required">E-post er påkrevd</div>
+       <div *ngIf="email.errors.email">E-post må være en gyldig epost addresse</div>
      </div>
    </div>
 
@@ -127,7 +127,7 @@
      <label for="password">* Passord</label>
      <input type="password" class="form-control" name="password" [(ngModel)]="formRegisterUser.password" required minlength="4"  maxlength="4" #password="ngModel"/>
      <div class="alert-danger" *ngIf="f.submitted && password.invalid">
-       <div *ngIf="password.errors.required">Password is required</div>
+       <div *ngIf="password.errors.required">passord er påkrevd</div>
        <div *ngIf="password.errors.minlength">Password must be 4 characters</div>
        <div *ngIf="password.errors.minlength">Password must be 4 characters</div>
      </div>
@@ -138,7 +138,7 @@
     <input type="password" class="form-control" name="confirmPassword" id="confirmPassword" [(ngModel)]="formRegisterUser.confirmPassword" required minlength="4"  maxlength="4" required
     appEqualValidator='password' #confirmPassword="ngModel"/>
     <div class="alert-danger" *ngIf="f.submitted && confirmPassword.invalid">
-      <div *ngIf="confirmPassword.errors.required">ConfirmPassword is required</div>
+      <div *ngIf="confirmPassword.errors.required">Bekreft passoed er påkrevd</div>
       <div *ngIf="confirmPassword.errors.maxlength">ConfirmPassword must be 4 characters</div>
       <div *ngIf="confirmPassword.errors.minlength">ConfirmPassword must be 4 characters</div>
       <div *ngIf="confirmPassword.errors?.validateEqual">Password Mismatch</div>
@@ -157,7 +157,7 @@
 
 <!-- Static  -->
 <div id="static" class="container"  *ngIf="showStatic">
-  <h1>Valg statestikk kommer her</h1>
+  <h2>Valg statestikk</h2>
   <app-bar></app-bar>
 </div>
 
@@ -196,29 +196,31 @@
 <!-- Ta Testen -->
 <div id="Test" class="container" *ngIf="showTest" >
  <!-- leggin kode for testen her -->
-  <div class="container container h-100 d-flex justify-content-center">
-  <h1>Test tid ca 15 minutter</h1>
-
+  <h2>Velgertest kommer her</h2>
 </div>
 
-  <div class="container container h-100 d-flex justify-content-center">
-    <button type="button" class="btn btn-success " (click)="onSubmitShowTesten()" aria-controls="navbarResponsive" style="
-    padding: 10px 20px;
-    font-size: 40px;
-    border-radius: 10px;
-    width:50%;
-">Ta testen!</button>
-  </div>
-
-</div>
-<div id="Testen" class="container" *ngIf="showTesten">
-  <h1>Spørsmål 1</h1>
-  <app-test></app-test>
-</div>
 <!--Ta kontakt-->
 <div id="contact" class="container" *ngIf="showContact">
-<!--contact content her-->
-  <h1>Ta kontakt kommer her</h1>
+  <h2>Ta kontakt</h2>
+    <form name="formContact">
+      <div class="form-group" >
+        <label for="fname">Fornavn</label>
+        <input class="form-control" type="text" id="fname" name="firstname" placeholder="Dit navn..">
+      </div>
+      <div class="form-group" >
+        <label for="lname">Etternavn</label>
+        <input class="form-control" type="text" id="lname" name="lastname" placeholder="Dit etter navn..">
+      </div>
+      <div class="form-group" >
+        <label for="contactemail">E-post</label>
+        <input class="form-control" type="email" id="contactemail" name="contactemail" placeholder="Din E-post..">
+      </div>
+      <div class="form-group" >
+      <label for="subject">Spørsmål</label>
+      <textarea class="form-control" id="subject" name="subject" placeholder="Skriv noe.." style="height:200px"></textarea>
+      </div>
+      <button class="btn btn-primary btn-group-lg " > send inn</button>
+    </form>
 </div>
 
 <!--FAQ-->
